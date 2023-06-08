@@ -26,13 +26,13 @@ string[] GetArrayLessThenFourNum(string[] array)
 
 string[] GetArray(int length)
 {
-    string[] origArray = new string[length];
+    string[] array = new string[length];
     for (int i = 0; i < length; i++)
     {
         Console.Write($"Enter element number {i + 1}: ");
-        origArray[i] = Console.ReadLine();
+        array[i] = Console.ReadLine();
     }
-    return origArray;
+    return array;
 }
 
 int GetArrayLength(string text)
